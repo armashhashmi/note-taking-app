@@ -1,0 +1,33 @@
+.groupHeading {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3%;
+  gap: 20px;
+}
+
+.container p {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.groupHeadingOuter {
+  display: flex;
+  gap: 0px;
+  /* align-items: center; */
+}
+.groupTitle {
+  padding: 12px;
+  border-radius: 50%;
+}
+.groupName {
+  font-weight: 500;
+  padding: 12px;
+  cursor: pointer;
+}

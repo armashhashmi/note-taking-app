@@ -1,0 +1,87 @@
+.modalHeader {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+p {
+  margin: 0;
+}
+
+.modalBody {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+input {
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 0.85rem;
+  padding: 1.5px 60px 1.5px 5px;
+}
+
+.groupName {
+  display: flex;
+  gap: 20px;
+}
+
+.chooseColour {
+  display: flex;
+  gap: 10px;
+}
+
+.chooseColour p {
+  margin-top: 5px;
+}
+
+.pickColour {
+  display: flex;
+  gap: 5px;
+}
+
+.purple {
+  background-color: #b38bfa;
+  color: #b38bfa;
+}
+
+.pink {
+  background-color: #ff79f2;
+  color: #ff79f2;
+}
+.blue {
+  background-color: #0047ff;
+  color: #0047ff;
+}
+.sky {
+  background-color: #43e6fc;
+  color: #43e6fc;
+}
+.lightblue {
+  background-color: #6691ff;
+  color: #6691ff;
+}
+.orange {
+  background-color: #f19576;
+  color: #f19576;
+}
+.purple,
+.blue,
+.lightblue,
+.orange,
+.sky,
+.pink {
+  padding: 10px 15px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.button {
+  color: white;
+  background-color: black;
+  padding: 3px 35px;
+  margin-left: 10%;
+  font-weight: 500;
+  border-radius: 15px;
+}

@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  width: 70%;
+  border: 2px solid green;
+  background-color: #e8e8e8;
+}
+
+.inputBox {
+  height: 30%;
+  width: 70%;
+  outline: none;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+}
+
+.inputBox:focus {
+  outline: none;
+}
+
+.submitButton {
+  background-color: white;
+  border: none;
+  text-align: end;
+  width: 70%;
+}
+
+.contentBox {
+  display: flex;
+  gap: 20px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
